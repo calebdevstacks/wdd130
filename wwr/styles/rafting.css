@@ -5,7 +5,6 @@
 }
 :root {
     --primary-color: #055a05;
-    --secondary-color: #f4a216;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -41,6 +40,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
 }
 h1 {
     position: absolute;

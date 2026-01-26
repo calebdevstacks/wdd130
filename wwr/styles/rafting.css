@@ -26,7 +26,7 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-nav, p, section, article {
+nav, p, section {
     margin: 16px;
     padding: 8px;
 }
@@ -40,25 +40,28 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    position: relative
 }
-h1 {
+.hero h1 {
     position: absolute;
     top: 200px;
+    left: 40px;
     width: 80%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
+    opacity: 0.8;
 }
 .hero article img {
     float: right;
     width: 125px;
 }
 .hero article {
-    position: relative;
-}
-.hero h1 {
     position: absolute;
+    top: 260px;
+    left: 40px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 16px;
+    width: 80%;
 }
+/* ===== FORCE HERO OVERLAY FIX ===== */

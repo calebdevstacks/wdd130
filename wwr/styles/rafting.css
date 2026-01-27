@@ -1,10 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 :root {
-    --primary-color: #055a05;
+    --primary-color: #fefefe;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -14,19 +9,27 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
 header, main, footer {
     width: 840px;
-    margin: 0 auto
+    margin: 0 auto;
+    text-align: left;
 }
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: #3e606d;
+    text-align: center;
 }
-nav, p, section {
+nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
@@ -35,33 +38,57 @@ nav, p, section {
 }
 .hero {
     position: relative;
+    background-color:rgb(244,244,244);
 }
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    max-width: 780px;
+    background-color: rgba(38, 70, 83, 0.7);
+    color: white;
+    padding: 13px;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-.hero h1 {
+
+h1 {
     position: absolute;
-    top: 200px;
-    left: 40px;
-    width: 80%;
-    padding: 16px;
+    top: 20px;
+    width: 100%;
+    padding: 20px;
     text-align: center;
+    opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
-    opacity: 0.8;
 }
 .hero article img {
     float: right;
     width: 125px;
 }
-.hero article {
-    position: absolute;
-    top: 260px;
-    left: 40px;
-    background-color: rgba(255,255,255,0.8);
-    padding: 16px;
-    width: 80%;
+
+footer {
+    background-color: white;
+    text-align: left;
+    padding: 16px 0;
+    color: var(--accent1-color);
 }
-/* ===== FORCE HERO OVERLAY FIX ===== */
+
+.socialmedia {
+    margin-top: 12px;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+    margin: 0 6px;
+    align-items: end;
+}
+
+footer p {
+    margin: 0;
+}

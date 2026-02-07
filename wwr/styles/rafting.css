@@ -154,7 +154,7 @@ footer .socialinks img {
 .adventure-grid img {
     width: 150px;
     height: 150px;
-    object-fit: center;
+    object-fit: cover;
 }
 .socialmedia {
     display: flex;

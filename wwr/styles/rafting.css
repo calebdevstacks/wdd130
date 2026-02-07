@@ -5,7 +5,6 @@
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
-
 header {
     display: grid;
     grid-template-columns: 120px 1fr;
@@ -36,15 +35,6 @@ header nav {
     gap: 20px;
     align-items: center;
 }
-h1 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-h2 {
-    color: var(--primary-color);
-    background-color: var(--accent1-color);
-
-}
 nav,
 p,
 section,
@@ -72,6 +62,8 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
     /* white text - make sure there is enough contrast with the background-color */
 }
 .hero article {
@@ -93,6 +85,8 @@ h2 {
     position: relative;
     text-align: center;
     bottom: 15px;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 .history {
     display: flex;

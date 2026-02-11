@@ -159,3 +159,133 @@ footer .socialinks img {
     height: 50px;
     object-fit: cover;
 }
+/* ================
+Team Section
+=================== */
+.team {
+    font-family: var(--heading-font);
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    position: relative;
+    text-align: center;
+}
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    position: relative;
+    text-align: center;
+    bottom: 5px;
+}
+.team-cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+}
+.team-cards figure {
+    padding: 5px;
+    border-radius: 8px
+}
+.team img {
+    width: 60%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+.team-cards figcaption {
+    font-weight: 500;
+}
+/* ==================
+Company Info
+==================== */
+.company-info {
+    font-family: var(--heading-font--);
+    color: var(--accent1-color);
+    position: relative;
+    text-align: center;
+}
+.company-info h1 {
+    margin-bottom: 1px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: #fefefe;
+    color: black;
+    font-family: var(--heading-font);
+}
+.company-info p {
+    margin-bottom: 1px;
+}
+
+/* ==================
+Company Location
+===================== */
+.company-location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.map-frame {
+    width: 400px;
+    height: 300px;
+}
+/* ===================
+Form styling
+====================== */
+form label {
+    display: block;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 8px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+form textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+legend {
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* Radio $ Checkbox */
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px
+}
+/* Button */
+button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* ==================
+Footer
+====================== */
+footer {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 20px 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+footer p {
+    font-size: 0.8rem;
+}
+.socialmedia img {
+    width: 50px;
+    margin-left: 30px;
+    gap:30px;
+}

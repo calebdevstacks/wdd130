@@ -228,6 +228,10 @@ Company Location
     margin-bottom: 15px;
     margin-top: 15px;
 }
+.map {
+    border: 0;
+}
+
 .map-frame {
     width: 400px;
     height: 300px;

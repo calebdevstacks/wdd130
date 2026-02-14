@@ -53,7 +53,7 @@ article {
     width: 100%;
     height: auto;
 }
-h1 {
+.about h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -80,7 +80,7 @@ h1 {
     float: right;
     width: 125px;
 }
-h2 {
+.about h2 {
     position: relative;
     text-align: center;
     bottom: 15px;
@@ -117,7 +117,7 @@ h2 {
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
-footer {
+.about footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -127,9 +127,6 @@ footer {
 }
 footer .grid {
     gap: 8px;
-}
-footer p {
-    font-size: 1.2em;
 }
 footer .sociallinks {
     display: flex;
@@ -154,11 +151,6 @@ footer .socialinks img {
     flex-direction: row;
     gap: 10px;
 }
-.socialmedia img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-}
 /* ================
 Team Section
 =================== */
@@ -169,7 +161,7 @@ Team Section
     position: relative;
     text-align: center;
 }
-h2 {
+.contact h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     position: relative;
@@ -185,7 +177,7 @@ h2 {
 }
 .team-cards figure {
     padding: 5px;
-    border-radius: 8px
+    border-radius: 8px;
 }
 .team img {
     width: 60%;
@@ -199,7 +191,7 @@ h2 {
 Company Info
 ==================== */
 .company-info {
-    font-family: var(--heading-font--);
+    font-family: var(--heading-font);
     color: var(--accent1-color);
     position: relative;
     text-align: center;
@@ -276,7 +268,7 @@ button {
 /* ==================
 Footer
 ====================== */
-footer {
+.contact footer {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     padding: 20px 5%;
@@ -290,6 +282,7 @@ footer p {
 }
 .socialmedia img {
     width: 50px;
+    margin-left: 50px;
+    object-fit: cover;
     margin-left: 30px;
-    gap:30px;
 }
